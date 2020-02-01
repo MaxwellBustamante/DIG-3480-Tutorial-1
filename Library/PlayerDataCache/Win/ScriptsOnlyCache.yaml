@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - Moving_The_Obstacle
     - PlayerController
     - Rotator
     Unity.2D.Tilemap.Editor.dll:
@@ -50,15 +51,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10276}
     - Class: 114
-      Script: {instanceID: 11120}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 11470}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11124}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 11474}
     - Class: 114
-      Script: {instanceID: 12946}
+      Script: {instanceID: 11496}
+    - Class: 114
+      Script: {instanceID: 13066}
+    - Class: 114
+      Script: {instanceID: 19344}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -264,6 +269,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotator
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -286,6 +297,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 83e769eee07fc231384c812eedbb8224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -444,7 +461,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: 6e14867b8ad0123ae4a45a2d0170b195
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -498,18 +515,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 83e769eee07fc231384c812eedbb8224
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotator
+    className: Moving_The_Obstacle
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: D:/DIG 3480/Tutorial 1 UFO/DIG 3480 Tutorial 1/Builds/DIG 3480 Tutorial
-    1.exe
+  playerPath: D:/DIG 3480/Tutorials/Github Repository/Tutorial 1 UFO/Tutorial-1-UFO/DIG
+    3480 Tutorial 1/Builds/DIG 3480 Tutorial 1.exe

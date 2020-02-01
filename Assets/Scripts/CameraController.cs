@@ -19,4 +19,12 @@ public class CameraController : MonoBehaviour
     {
         transform.position = player.transform.position + offset;
     }
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
+
 }
